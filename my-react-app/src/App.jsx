@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import profileImg from './assets/profile.jpg.jpg' // Ensure this path is correct
-import GeorgiaHeader from './components/GHeader';
+import GeorgiaHeader from './components/Header';
 import GApp from './GApp'; 
 
 // Simple SVG Icons component
