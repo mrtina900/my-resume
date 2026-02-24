@@ -16,7 +16,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 2;
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-page);
   color: var(--text-dark);
