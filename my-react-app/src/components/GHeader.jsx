@@ -1,4 +1,4 @@
-import styles from './GHeader.module.css';
+import styles from './styles/GHeader.module.css';
 import profileImg from './assets/mypic.jpg';
 
 function GeorgiaHeader() {

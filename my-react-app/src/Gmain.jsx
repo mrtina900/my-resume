@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './Gindex.css'
-import App from './GApp.jsx'
+import './style/Gindex.css'
+import App from './page/GApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

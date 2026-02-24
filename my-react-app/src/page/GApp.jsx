@@ -1,5 +1,5 @@
-import GeorgiaHeader from './components/GHeader';
-import './GApp.module.css'; 
+import GeorgiaHeader from '../components/GHeader';
+import './styles/GApp.module.css'; 
 
 function GApp() {
   return (

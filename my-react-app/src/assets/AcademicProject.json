@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "owner": "Martina",
+    "title": "Awareness App",
+    "tech": "Java Swing",
+    "year": "2025",
+    "description": "Developed an interactive learning/quiz desktop application using Java Swing assets and collaborated in an Agile team using Git."
+  },
+  {
+    "id": 2,
+    "owner": "Martina",
+    "title": "Health App UI/UX",
+    "tech": "Figma",
+    "year": "2025",
+    "description": "Designed high-fidelity mobile health tracking prototypes and applied UI/UX principles for optimal user flow."
+  },
+  {
+    "id": 3,
+    "owner": "Georgia",
+    "title": "Flood Prediction Model",
+    "tech": "Machine Learning (MLP)",
+    "year": "2025",
+    "description": "Explored the development of a flood prediction model using a Multilayer Perceptron (MLP) trained on historical meteorological and hydrological data."
+  },
+  {
+    "id": 4,
+    "owner": "Martina",
+    "title": "Software Estimation Project",
+    "tech": "Project Management",
+    "year": "2025",
+    "description": "Conducted cost/effort estimation using Agile Story Points, UCP, and COCOMO to produce budget and timeline reports."
+  },
+  {
+    "id": 5,
+    "owner": "Georgia",
+    "title": "Flood Management System",
+    "tech": "Python",
+    "year": "2024",
+    "description": "Developed a Python program to automate the allocation of relief resources to flood-affected divisions based on severity and stock."
+  },
+  {
+    "id": 6,
+    "owner": "Martina",
+    "title": "SafeDrive Vehicle System",
+    "tech": "C & MySQL",
+    "year": "2024",
+    "description": "Architected a database for customers, vehicles, and payments while implementing rigorous data integrity checks."
+  },
+  {
+    "id": 7,
+    "owner": "Georgia",
+    "title": "SafeDrive Insurance Web",
+    "tech": "Web Development",
+    "year": "2024",
+    "description": "Designed and built a car insurance platform using JavaScript, CSS, MySQL, PHP, and HTML to manage user policies."
+  }
+]
