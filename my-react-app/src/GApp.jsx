@@ -1,4 +1,4 @@
-import GeorgiaHeader from './GHeader';
+import GeorgiaHeader from './components/GHeader';
 import './GApp.module.css'; 
 
 function GApp() {
