@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import profileImg from './assets/profile.jpg.jpg' // Ensure this path is correct
+import GeorgiaHeader from './GHeader';
 
 // Simple SVG Icons component to avoid external dependencies
 const Icon = ({ name }) => {
@@ -20,7 +21,9 @@ function App() {
   };
 
   return (
+    
     <div className="page-container">
+      <GeorgiaHeader />
       
       {/* Floating Action Button */}
       <button onClick={handlePrint} className="print-btn">

@@ -1,0 +1,38 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  width: 100vw;      
+  max-width: 2000px; /*change this one to header filled */ 
+  margin: 0 auto 30px;
+  padding: 60px 20px;
+  background-color: whitesmoke;
+  border-bottom: 3px solid grey; 
+}
+
+.profileImg {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid black;
+  margin-bottom: 15px;
+}
+
+.title {
+  color: darkslategrey;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.contactInfo {
+  margin-top: 10px;
+  color: #666;
+}
+
+.about {
+  max-width: 600px;
+  margin: 20px auto 0;
+  line-height: 1.6;
+  color: #444;
+}
