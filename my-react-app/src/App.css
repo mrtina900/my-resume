@@ -16,7 +16,7 @@
 }
 
 body {
-  margin: 0; /*changes here */
+  margin: 0;
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-page);
   color: var(--text-dark);
@@ -255,4 +255,28 @@ ul.bullet-list li {
   .resume-paper { box-shadow: none; max-width: 100%; border-radius: 0; }
   .print-btn { display: none; }
   body { background: white; }
+}
+
+.resumes-flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px;
+  width: max-content; /* Allows the container to grow wider than the screen */
+  margin: 0 auto;
+}
+
+.resume-paper {
+  width: 800px; /* Gives each resume a fixed, professional width */
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  flex-shrink: 0; /* Prevents the resumes from squashing */
+}
+
+/* Fixes the overall page so it scrolls horizontally if needed */
+.page-container {
+  overflow-x: auto;
+  background-color: #f5f7fa;
+  min-height: 100vh;
 }

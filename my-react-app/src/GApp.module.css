@@ -1,59 +1,65 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
+/* 1. Use a unique wrapper to contain all your styles */
+.georgia-wrapper {
   width: 100%;
-  overflow-x: hidden;
+  background-color: #ffffff; /* Keeps your resume background clean */
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding-bottom: 40px;
 }
 
-#root {
+/* 2. Renamed from .container to avoid clashing with Martina */
+.georgia-content {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 900px;
+  margin: 0 auto; 
+  padding: 20px; 
 }
 
-.container {
-width: 100%;
-max-width: 900px;
-margin: 0 auto; /* Changes on this */
-padding: 20px; /* to have more space btwn the Header and Body */
-}
-
-.divider {
+/* 3. Custom divider for your section */
+.georgia-divider {
   border: 0;
   height: 1px;
-  background: grey;
-  margin: 20px 0;
+  background: #cbd5e0; /* A slightly softer grey */
+  margin: 25px 0;
 }
 
-.section {
+/* 4. Unique section styling */
+.georgia-section {
   width: 100%;
   text-align: left;
   padding: 0 20px;
+  margin-bottom: 20px;
 }
 
-.section h2 {
-  color: darkslategrey; 
+.georgia-section h2 {
+  color: #2f4f4f; /* darkslategrey */
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2f4f4f; /* Adds a professional underline */
+  padding-bottom: 5px;
 }
 
-.skills-list {
+.georgia-section p {
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* 5. Skills list styling */
+.georgia-skills-list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Changed from center to align with text */
   gap: 10px;
   list-style: none;
   padding: 0;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
-.skills-list li {
-  background: #eee;
-  padding: 5px 10px;
-  border-radius: 5px;
+.georgia-skills-list li {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  border: 1px solid #e2e8f0;
 }
-

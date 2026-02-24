@@ -1,4 +1,5 @@
 import styles from './GHeader.module.css';
+import profileImg from './assets/mypic.jpg';
 
 function GeorgiaHeader() {
   const userInfo = {
@@ -10,7 +11,7 @@ function GeorgiaHeader() {
   return (
     <header className={styles.headerContainer}>
       <img 
-        src="/mypic.jpg" 
+        src={profileImg}
         alt="Profile" 
         className={styles.profileImg} 
       />

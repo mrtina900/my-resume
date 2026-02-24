@@ -1,35 +1,36 @@
-import Header from './Header';
-import './App.css';
+import GeorgiaHeader from './GHeader';
+import './GApp.module.css'; 
 
-function App() {
+function GApp() {
   return (
-    <>
-    <Header />
-    <div className="container">
+    <div className="georgia-wrapper"> {/* Unique wrapper */}
+      <GeorgiaHeader />
       
-      {/* ABOUT ME SECTION */}
-      <section className="section">
-        <h2>ABOUT ME</h2>
-        <p>As a computational science student, I specialize in data modeling, system and web development, database management. I am currently an intern at UGlobal Solutions Sdn Bhd.</p>
-      </section>
+      <div className="georgia-content"> {/* Renamed from 'container' */}
+        
+        {/* ABOUT ME SECTION */}
+        <section className="georgia-section">
+          <h2>ABOUT ME</h2>
+          <p>As a computational science student, I specialize in data modeling, system and web development, database management. I am currently an intern at UGlobal Solutions Sdn Bhd.</p>
+        </section>
 
-      <hr className="divider" />
+        <hr className="georgia-divider" />
 
-      {/* ACADEMIC SECTION */}
-      <section className="section">
-        <h2>EDUCATION</h2>
-        <p><strong>University Malaysia Sarawak </strong> | 2023 - Present</p>
-        <p>Bachelor's Degree of Computer Science (Computational Science)</p>
-        <br></br>
-        <p><strong>Universiti Teknologi Mara </strong> | 2020 - 2023</p>
-        <p> Diploma in Computer Science</p>
-      </section>
+        {/* ACADEMIC SECTION */}
+        <section className="georgia-section">
+          <h2>EDUCATION</h2>
+          <p><strong>University Malaysia Sarawak </strong> | 2023 - Present</p>
+          <p>Bachelor's Degree of Computer Science (Computational Science)</p>
+          <br />
+          <p><strong>Universiti Teknologi Mara </strong> | 2020 - 2023</p>
+          <p> Diploma in Computer Science</p>
+        </section>
 
-      <hr className="divider" />
+        <hr className="georgia-divider" />
 
-      {/* ACADEMIC PROJECTS SECTION */}
-      <section className="section">
-        <h2>ACADEMIC PROJECTS</h2>
+        {/* ACADEMIC PROJECTS SECTION */}
+        <section className="georgia-section">
+          <h2>ACADEMIC PROJECTS</h2>
         <p><strong>Flood Prediction Model (Machine Learning)</strong></p>
         <p>- Explored the development of a flood prediction model using a Multilayer Perceptron(MLP) 
           trained on historical metereological and hydrological data.</p>
@@ -51,11 +52,12 @@ function App() {
         <p>- Designed a database to store games information.</p>
       </section>
 
-      <hr className="divider" />
 
-      {/* EXPERIENCE SECTION */}
-      <section className="section">
-        <h2>EXPERIENCE</h2>
+        <hr className="georgia-divider" />
+
+        {/* EXPERIENCE SECTION */}
+        <section className="georgia-section">
+          <h2>EXPERIENCE</h2>
       <p><strong>UGlobal Solutions Sdn Bhd - Internship</strong> (Februrary 2026 - August 2026)</p>
       <p>- Develop system...</p>
       <p>- Database ...</p>
@@ -67,32 +69,27 @@ function App() {
       <p>- Checked and approved user requests for new laptops before issuing them.</p>
       </section>
 
-      <hr className="divider" />
 
+        <hr className="georgia-divider" />
 
-      {/* SKILLS SECTION */}
-      <section className="section">
-        <h2>SKILLS</h2>
-        <p><strong>- Languages: </strong> Python, Java, C++, PHP, JavaScript</p>
-        <p><strong>- Computational Science & Data: </strong> Machine Learning, Mathematical Modelling, Jupyter notebook, Data Analysis
-         & Visualization.</p>
-         <p><strong>- Tools & Platforms: </strong> Visual Studio Code, Notepad++, Ubuntu (Linux), Microsoft Excel,
-         Canva, PowerPoint.</p>
-         <p><strong>- Soft Skills: </strong> Technical Problem Solving, Team Collaboration, User Support, Adaptive Learning.</p>
-      </section>
+        {/* SKILLS SECTION */}
+        <section className="georgia-section">
+          <h2>SKILLS</h2>
+          <p><strong>- Languages: </strong> Python, Java, C++, PHP, JavaScript</p>
+          <p><strong>- Soft Skills: </strong> Technical Problem Solving, Team Collaboration.</p>
+        </section>
 
-      <hr className="divider" />
+        <hr className="georgia-divider" />
 
-      {/* LANGUAGE SECTION */}
-      <section className="section">
-        <h2>LANGUAGE</h2>
-        <p><strong>Malay</strong> - Native</p>
-        <p><strong>English</strong> - Fluent</p>
-      </section>  
-      
+        {/* LANGUAGE SECTION */}
+        <section className="georgia-section">
+          <h2>LANGUAGE</h2>
+          <p><strong>Malay</strong> - Native | <strong>English</strong> - Fluent</p>
+        </section>   
+        
+      </div>
     </div>
-    </>
   );
 }
 
-export default App;
+export default GApp;
