@@ -1,6 +1,6 @@
-import styles from './Header.module.css';
+import styles from './GHeader.module.css';
 
-function Header() {
+function GeorgiaHeader() {
   const userInfo = {
     name: "GEORGIA JULIAN",
     email: "juliangeorgia@gmail.com",
@@ -28,4 +28,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default GeorgiaHeader;
